@@ -1,0 +1,11 @@
+sort1 uses: Bubble
+
+How do you know?: Is slower than sort2 but almost the same as sort3 except one case: the sorted, which the sort1 do it automatically while sort3 takes longer.
+
+sort2 uses: Merge
+
+How do you know?: Is the fastest of the three in all cases.
+
+sort3 uses: Selection
+
+How do you know?: Because in random and reversed is almost the same as sort1 but when it comes to the sorted, is slower than sort1.

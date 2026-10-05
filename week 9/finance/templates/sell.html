@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Shell
+{% endblock %}
+
+{% block main %}
+    <form action="/sell" method="post">
+        <select name="symbol">
+            <option selected value>Option</option>
+            {% for stock in portfolio %}
+                <option value="{{ stock.symbol }}">{{ stock.symbol }}</option>
+            {% endfor %}
+        </select>
+        <input autocomplete="off" name="shares" placeholder="Shares" type="text">
+        <button type="submit" class="btn btn-primary">Shell</button>
+    </form>
+{% endblock %}

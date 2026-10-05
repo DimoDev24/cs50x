@@ -1,0 +1,8 @@
+HTML tags I used: <script>, <div>, <p>, <h1>, <button>, <a>, <ul>, <li>, <link>, <meta>
+
+CSS tags I used: margin, padding, text-align, display, justify-content, align-items, color, background-color, font-size...
+
+How used JavaScript to give a button funcionality, I wanted to redirect to another page of the shop, but I'm not sure if
+I'm allowed to make more than the index so I choose to the redirect to another famous shops.
+
+To bootstrap, I didn't understand very well it's funcionality, but I used it to make the buttons and give colors with it's palette.

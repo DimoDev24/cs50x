@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="p-3">Stock</th>
+                <th class="p-3">Number</th>
+                <th class="p-3">Value</th>
+                <th class="p-3">Action</th>
+                <th class="p-3">Datetime</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for stock in rows %}
+                <tr>
+                    <td>{{ stock.symbol }}</td>
+                    <td>{{ stock.number }}</td>
+                    <td>{{ stock.amount | usd }}</td>
+                    <td>{{ stock.action }}</td>
+                    <td>{{ stock.datetime }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

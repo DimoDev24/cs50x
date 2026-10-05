@@ -1,0 +1,16 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+    I might do a python program (Because I don't know if is possible in SQL) that determines the average of
+    energy, danceability and valence. Next I divide that by 3 and then have the 'Spotify Aura'.
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+
+    Maybe a song can have a danceability of '1' but a valence of '0', the average is going to be '0.5', but there are people who
+    like sad songs and a more complex deep in the letter, so maybe for they the average should be '1'...
+
+    Also there are people who doesn't like to dance, so the danceability like a form of calification have no sense.
+
+    I think the best way to have this 'Spotify Aura' probably is letting the listeners of Spotify vote for their
+    favorite songs. The people who like dancing can vote theirs and people who like sad songs of low energy have theirs.
+
+    More votes mean more 'Aura' because more people likes that.
