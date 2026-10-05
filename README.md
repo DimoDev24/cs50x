@@ -5,4 +5,4 @@ Here, you can see all of my solutions of the 2026 problems sets.
 Hope you enjoy it! 😸
 
 (And this is my cs50x free certificate ^^)
-![Certificate](/images/certificado_Cs50x.png)
+![Certificate](\images\certificado_Cs50x.png)
